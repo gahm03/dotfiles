@@ -1,4 +1,4 @@
-class _(self, _):
+class _(object):
     def __init__(self, _):
         self._ =
         self._ = 
