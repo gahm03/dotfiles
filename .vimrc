@@ -104,7 +104,7 @@ set wildmenu    " Display all matching files when we tab complete
 "
 " SNIPPETS
 " Read an empty template and move the cursor
-nnoremap ,def :-1read ~/.vim/.defpy.py<CR>wi
+nnoremap ,def :-1read ~/.vim/templates/defpy.py<CR>wi
         " n normalmode
         " noremap don't let any these commands invoke themselves
         " don't invoke the use of normal function of keys
