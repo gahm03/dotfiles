@@ -112,6 +112,8 @@ nnoremap ,def :-1read ~/.vim/templates/defpy.py<CR>wi
         " -1read changes the line by one 
         " then reads the file and press return key <CR> and return normal mode
         " then vim moves one word and go to insert mode
+        "
+nnoremap ,class :-1read ~/.vim/templates/classpy.py<CR>wi
 
 " Show whitespace
 " MUST be inserted BEFORE the colorscheme command
