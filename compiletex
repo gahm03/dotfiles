@@ -1,1 +1,1 @@
-tmux send-keys -t right C-z 'hello'
+send-keys -t right C-z 'hello'
