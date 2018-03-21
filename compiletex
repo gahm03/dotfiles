@@ -1,0 +1,1 @@
+tmux send-keys -t right C-z 'latexmk -pdf -pv main.tex and evince main.pdf' C-m
