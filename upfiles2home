@@ -1,5 +1,5 @@
 #!/bin/bash
-clear
+#clear
 cp ~/Documents/github/dotfiles/.vimrc ~
 cp ~/Documents/github/dotfiles/.tmux.conf ~
 cp -r ~/Documents/github/dotfiles/templates/* ~/.vim/templates
