@@ -118,7 +118,7 @@ nnoremap ,def :-1read ~/.vim/templates/defpy.py<CR>wi
         "
 nnoremap ,class :-1read ~/.vim/templates/classpy.py<CR>wi
 
-nnoremap ,tex :-1read ~/.vim/templates/textemplate.tex<CR>wi
+nnoremap ,tex :-1read ~/.vim/templates/textemplate.tex<CR>jj3wcaw
 
 " Show whitespace
 " MUST be inserted BEFORE the colorscheme command
