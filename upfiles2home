@@ -3,6 +3,7 @@ clear
 cp ~/Documents/github/dotfiles/.vimrc ~
 cp ~/Documents/github/dotfiles/.tmux.conf ~
 cp -r ~/Documents/github/dotfiles/templates/* ~/.vim/templates
+cp -r ~/Documents/github/dotfiles/three-panes ~/.tmux
 echo "files copied"
 
 # don't fotget to make executable the file using chmod 755 nameofthefile
