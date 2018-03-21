@@ -102,6 +102,9 @@ set wildmenu    " Display all matching files when we tab complete
 " NOW WE CAN:
 " - Use ^n and ^p to go back and forth in the suggestion list
 "
+"
+"
+"
 " SNIPPETS
 " Read an empty template and move the cursor
 nnoremap ,def :-1read ~/.vim/templates/defpy.py<CR>wi
@@ -114,6 +117,8 @@ nnoremap ,def :-1read ~/.vim/templates/defpy.py<CR>wi
         " then vim moves one word and go to insert mode
         "
 nnoremap ,class :-1read ~/.vim/templates/classpy.py<CR>wi
+
+nnoremap ,tex :-1read ~/.vim/templates/textemplate.tex<CR>wi
 
 " Show whitespace
 " MUST be inserted BEFORE the colorscheme command
