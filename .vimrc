@@ -195,4 +195,4 @@ set showmatch   " show matching braces
 set mat=2       " how many tenths of a second to blink
 set laststatus=2 " show status line all the time
 
-
+set wrap        "breaks one line into multiple lines
