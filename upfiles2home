@@ -1,10 +1,12 @@
 #!/bin/bash
 #clear
-cp ~/Documents/github/dotfiles/.vimrc ~
-cp ~/Documents/github/dotfiles/.tmux.conf ~
-cp -r ~/Documents/github/dotfiles/templates/* ~/.vim/templates
-cp -r ~/Documents/github/dotfiles/three-panes ~/.tmux
-cp -r ~/Documents/github/dotfiles/compiletex ~/.tmux
+d=$(pwd) # gets the current directory
+cp $d/.vimrc ~
+cp $d/.tmux.conf ~
+mkdir -p ~/.vim/templates
+cp -r $d/templates/* ~/.vim/templates
+cp -r $d/three-panes ~/.tmux
+cp -r $d/compiletex ~/.tmux
 echo "files copied"
 
 # don't fotget to make executable the file using chmod 755 nameofthefile
