@@ -4,6 +4,7 @@ d=$(pwd) # gets the current directory
 cp $d/.vimrc ~
 cp $d/.tmux.conf ~
 mkdir -p ~/.vim/templates
+mkdir -p ~/.tmux
 cp -r $d/templates/* ~/.vim/templates
 cp -r $d/three-panes ~/.tmux
 cp -r $d/compiletex ~/.tmux
