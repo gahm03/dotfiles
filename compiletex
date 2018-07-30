@@ -2,9 +2,8 @@
 # original working with linux
 
 # working with windows bash ubuntu
-send-keys -t right 'clear' C-m
 # send-keys -t right 'latexmk -pdf -pv main.tex' C-m
-send-keys -t right 'latexmk -pdf -pv main.tex && /mnt/c/Program\ Files\ \(x86\)/Adobe/Acrobat\ Reader\ DC/Reader/./AcroRd32.exe main.pdf' C-m
+send-keys -t right 'clear && latexmk -pdf -pv main.tex && /mnt/c/Program\ Files\ \(x86\)/Adobe/Acrobat\ Reader\ DC/Reader/./AcroRd32.exe main.pdf' C-m
 
 # send-keys -t right sends the cursor to the right pane
 # -t stands for target
