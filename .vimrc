@@ -39,6 +39,10 @@ Plugin 'flazz/vim-colorschemes'
 Plugin 'Lokaltog/powerline' , {'rtp': 'powerline/bindings/vim/'}
 Plugin 'TerryMa/vim-multiple-cursors'
 Plugin 'luochen1990/rainbow'
+" Plugin 'dracula/vim'
+Plugin 'vim-syntastic/syntastic'
+" Plugin 'lervag/vimtex'
+
 
 
 let g:rainbow_active = 1 "0 if you want to enable it later via :RainbowToggle
@@ -118,7 +122,7 @@ nnoremap ,def :-1read ~/.vim/templates/defpy.py<CR>wi
         "
 nnoremap ,class :-1read ~/.vim/templates/classpy.py<CR>wi
 
-nnoremap ,tex :-1read ~/.vim/templates/textemplate.tex<CR>jj3wcaw
+nnoremap ,tex :-1read ~/.vim/templates/textemplate.tex<CR>13j2wa
 
 " Show whitespace
 " MUST be inserted BEFORE the colorscheme command
@@ -128,8 +132,9 @@ au InsertLeave * match ExtraWhitespace /\s\+$/
 set encoding=utf-8
 let base16colorspace=256    " Acces colors present in 256 colorspace
 set t_Co=256        " Explicitly tell vim that the terminal supports 256 colors
-set background=dark
+" set background=dark
 colorscheme badwolf "molokai "solarized " wombat256 "molokai "onedark "SlateDark 
+" color dracula
 
 " Better copy & paste
 " When you want to paste large blocks fo code into vim, press F2 before
