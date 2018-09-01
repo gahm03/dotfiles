@@ -39,8 +39,9 @@ Plugin 'flazz/vim-colorschemes'
 Plugin 'Lokaltog/powerline' , {'rtp': 'powerline/bindings/vim/'}
 Plugin 'TerryMa/vim-multiple-cursors'
 Plugin 'luochen1990/rainbow'
+Plugin 'vim-latex/vim-latex'
 " Plugin 'dracula/vim'
-Plugin 'vim-syntastic/syntastic'
+" Plugin 'vim-syntastic/syntastic'
 " Plugin 'lervag/vimtex'
 
 
@@ -86,8 +87,8 @@ filetype plugin indent on 	" required
 
 
 
-
-
+set cursorcolumn
+set cursorline
 
 
 " FINDING FILES
